@@ -5,9 +5,6 @@ alunos = []
 notas = []
 
 for linha in linhas:
-    linha = linha.strip()
-    if not linha:
-        continue  
 
     nome, curso, nota = linha.split("#")
     nota = float(nota)
